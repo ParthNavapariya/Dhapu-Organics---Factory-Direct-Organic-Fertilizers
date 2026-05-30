@@ -1,0 +1,1066 @@
+@media (max-width: 1024px){
+   .wrapper {
+    padding: 0 20px;
+  }
+ 
+  .nav-left {
+    width: 30%;
+  }
+ 
+  .nav-center {
+    width: 45%;
+  }
+ 
+  .nav-right {
+    width: 25%;
+  }
+ 
+  .nav-center ul {
+    gap: 18px;
+  }
+ 
+  .nav-center li a {
+    font-size: 12px;
+  }
+
+  .footer-inner {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 0 30px;
+  }
+    .farming {
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+
+  .leaf-section {
+    align-items: center;
+  }
+
+  .leaf-bg {
+    width: 50%;
+  }
+
+  .leaf-content {
+    width: 50%;
+    padding: 0 28px;
+  }
+
+  .vision {
+    font-size: 1.5rem;
+  }
+
+  .building {
+    font-size: 24px;
+    line-height: 1.8;
+  }
+
+  .our-vision {
+    font-size: 14.5px;
+  }
+
+
+  /* section 3 */
+  .mission{
+    padding:80px 30px;
+  }
+
+  .mission-section{
+    gap:35px;
+    align-items:center;
+  }
+
+  .section-1{
+    flex:1;
+  }
+
+  .section-2{
+    flex:1;
+    min-height:500px;
+  }
+
+  .mission-heading{
+    font-size:17px;
+    margin-top:0;
+  }
+
+  .mission-building{
+    font-size:38px;
+    line-height:1.25;
+    max-width:100%;
+  }
+
+  .mission-statement{
+    font-size:16px;
+    line-height:1.8;
+    max-width:100%;
+  }
+
+  .pr-mission{
+    gap:20px;
+  }
+
+  .product-mission,
+  .product-mission2{
+    min-height:130px;
+  }
+
+  .product-mission p:first-child,
+  .product-mission2 p:first-child{
+    font-size:42px;
+  }
+
+  .product-mission p:last-child,
+  .product-mission2 p:last-child{
+    font-size:18px;
+  }
+
+  .philosophy-card{
+    width:240px;
+    left:-15px;
+    bottom:-20px;
+    padding:24px;
+  }
+
+  .philosophy-card h2{
+    font-size:16px;
+  }
+
+  /* our journey */
+  .journey{
+    padding:70px 25px;
+  }
+
+  .journey-title{
+    font-size:34px;
+  }
+
+  .timeline{
+    max-width:100%;
+  }
+
+  .timeline-item{
+    gap:30px;
+  }
+
+  .timeline-left{
+    width:75px;
+  }
+
+  .circle{
+    width:42px;
+    height:42px;
+    font-size:20px;
+  }
+
+  .timeline-label,
+  .timeline-heading,
+  .timeline-text{
+    margin-left:0;
+  }
+
+  .timeline-heading{
+    font-size:19px;
+  }
+
+  .timeline-text{
+    font-size:14px;
+    max-width:100%;
+  }
+  .values-section {
+        margin-top: 100px;
+    }
+    .title {
+        font-size: 42px;
+        margin-bottom: 50px;
+    }
+    .values-container {
+        grid-template-columns: repeat(3, 1fr);
+        padding: 100px 0;
+    }
+    .faq-container {
+        max-width: 90% !important;
+        margin-top: 80px;
+    }
+    .faq-title {
+        font-size: 36px;
+    }
+
+    /* cta section */
+    .cta-container {
+        max-width: 900px;
+    }
+  }
+@media (max-width: 768px) {
+   .navabar {
+    width: 100%;
+    padding: 0 16px;
+    left: 0;
+    right: 0;
+  }
+ 
+  .nav {
+    height: 65px;
+    position: relative;
+  }
+ 
+  .nav-left {
+    width: 60%;
+  }
+ 
+  .nav-span {
+    font-size: 14px;
+  }
+ 
+  .nav-left img {
+    width: 40px;
+  }
+ 
+  /* Hide desktop nav links */
+  .nav-center {
+    display: none;
+  }
+ 
+  .nav-right {
+    display: none;
+  }
+  .footer-inner {
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    padding: 0 20px;
+  }
+
+  .newsletter-form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .newsletter-btn {
+    width: 100%;
+  }
+  .hamburger {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    cursor: pointer;
+  }
+ 
+  .menu {
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.4s ease, opacity 0.3s ease;
+    display: inline-block;
+  }
+ 
+  .menu.open {
+    transform: rotate(90deg);
+    opacity: 0.7;
+  }
+ 
+  .ham-btn {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+  }
+  .ham-btn i{
+  color: black;
+  }
+ 
+  .ham-detail {
+    position: fixed;
+    top: 65px;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.97);
+    z-index: 999;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, padding 0.4s ease;
+    padding: 0 20px;
+  }
+ 
+  .ham-detail.active {
+    max-height: 600px;
+    padding: 20px;
+  }
+ 
+  .ham-detail ul {
+    list-style: none;
+    padding: 0;
+  }
+ 
+  .ham-detail ul li {
+    margin-top: 15px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+ 
+  .ham-detail ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    flex: 1;
+  }
+ 
+  .arrow {
+    font-size: 14px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    display: inline-block;
+    padding: 4px 8px;
+  }
+ 
+  li.open .arrow {
+    transform: rotate(180deg);
+  }
+ 
+  .menu-drop {
+    background-color: transparent;
+    display: block;
+    position: static;
+    width: 100%;
+    border-radius: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+    padding-left: 15px;
+    border-left: 2px solid #5a7c45;
+  }
+ 
+  li.open .menu-drop {
+    max-height: 400px;
+    padding: 5px 0 5px 15px;
+  }
+ 
+  .Get-btn-res {
+    border: none;
+    width: 90%;
+    padding: 12px 22px;
+    color: #fff;
+    background-color: #2c5828;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: 15px;
+    margin-top: 20px;
+    display: block;
+  }
+    .farming {
+    margin-top: 56px;
+    margin-bottom: 56px;
+  }
+
+  .leaf-section {
+    flex-direction: column;  
+  }
+
+  .leaf-bg {
+    width: 100%;            
+    overflow: hidden;
+  }
+
+  .leaf-bg img {
+    width: 100%;
+  }
+
+  .leaf-content {
+    width: 100%;              
+    padding: 32px 32px;
+  }
+
+  .vision {
+    font-size: 1.35rem;
+  }
+
+  .building {
+    font-size: 22px;
+    line-height: 1.6;
+  }
+
+  .our-vision {
+    font-size: 14px;
+    line-height: 1.65;
+  }
+   
+
+  /* section 3 */
+  .mission{
+    padding:70px 24px;
+  }
+
+  .mission-section{
+    flex-direction:column;
+    gap:40px;
+  }
+
+  .section-1,
+  .section-2{
+    width:100%;
+  }
+
+  .mission-heading{
+    font-size:16px;
+    margin-top:0;
+  }
+
+  .mission-building{
+    font-size:34px;
+    line-height:1.3;
+    max-width:100%;
+  }
+
+  .mission-statement{
+    font-size:16px;
+    line-height:1.8;
+    max-width:100%;
+  }
+
+  .pr-mission{
+    gap:20px;
+  }
+
+  .product-mission,
+  .product-mission2{
+    flex:1 1 48%;
+    min-height:130px;
+  }
+
+  .product-mission p:first-child,
+  .product-mission2 p:first-child{
+    font-size:40px;
+  }
+
+  .product-mission p:last-child,
+  .product-mission2 p:last-child{
+    font-size:17px;
+  }
+
+  .section-2{
+    min-height:450px;
+    border-radius:26px;
+  }
+
+  .philosophy-card{
+    width:220px;
+    left:20px;
+    bottom:20px;
+    padding:20px;
+  }
+
+  .philosophy-card h2{
+    font-size:15px;
+  }
+
+
+  /* our journey */
+
+  .journey{
+    padding:60px 18px;
+  }
+
+  .journey-top{
+    margin-bottom:50px;
+  }
+
+  .journey-small{
+    font-size:11px;
+    letter-spacing:4px;
+  }
+
+  .journey-title{
+    font-size:28px;
+    line-height:1.3;
+  }
+
+  .timeline-item{
+    gap:20px;
+    padding-bottom:55px;
+  }
+
+  .timeline-left{
+    width:60px;
+  }
+
+  .circle{
+    width:38px;
+    height:38px;
+    font-size:18px;
+  }
+
+  .line{
+    top:38px;
+  }
+
+  .timeline-label,
+  .timeline-heading,
+  .timeline-text{
+    margin-left:0;
+  }
+
+  .timeline-label{
+    font-size:11px;
+  }
+
+  .timeline-heading{
+    font-size:18px;
+    margin-bottom:12px;
+  }
+
+  .timeline-text{
+    font-size:14px;
+    line-height:1.7;
+    max-width:100%;
+  }
+
+  .values-section {
+        margin-top: 80px;
+    }
+    .title {
+        font-size: 36px;
+    }
+    .values-container {
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 25px;
+    }
+
+    /* faqs */
+    .faq-title {
+        font-size: 32px;
+    }
+    .accordion-header {
+        font-size: 17px;
+        padding: 20px 25px;
+    }
+    .accordion-item {
+        border-radius: 25px; 
+    }
+    /* cta section */
+    .cta-container {
+        flex-direction: column; 
+        text-align: center;
+    }
+    .cta-title {
+        font-size: 28px;
+    }
+  }
+@media (max-width: 480px){
+
+
+  .nav-right {
+    display: none;
+  }
+ 
+  .nav-left {
+    width: 70%;
+  }
+
+  .btn-whatsapp,
+  .btn-contact {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .footer-inner {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 0 16px;
+  }
+
+  .newsletter {
+    max-width: 100%;
+  }
+
+  .newsletter-input {
+    padding: 14px 16px;
+  }
+    .farming {
+    margin-top: 44px;
+    margin-bottom: 44px;
+  }
+
+  .leaf-bg img {
+    height: auto;
+  }
+
+  .leaf-content {
+    padding: 24px 20px;
+  }
+
+  .vision {
+    font-size: 1.15rem;
+    margin-bottom: 4px;
+  }
+
+  .building {
+    font-size: 19px;
+    line-height: 1.5;
+  }
+
+  .our-vision {
+    font-size: 13.5px;
+    line-height: 1.65;
+  }
+
+
+  /* section 3 */
+   
+  .mission{
+    padding:55px 16px;
+  }
+
+  .mission-section{
+    flex-direction:column;
+    gap:30px;
+  }
+
+  .section-1{
+    width:100%;
+  }
+
+  .mission-heading{
+    font-size:14px;
+    letter-spacing:1px;
+    margin-top:0;
+    margin-bottom:10px;
+  }
+
+  .mission-building{
+    font-size:24px;
+    line-height:1.35;
+    margin-bottom:20px;
+    max-width:100%;
+  }
+
+  .mission-statement{
+    font-size:14px;
+    line-height:1.7;
+    margin-bottom:30px;
+    max-width:100%;
+  }
+
+  .pr-mission{
+    flex-direction:column;
+    gap:18px;
+  }
+
+  .product-mission,
+  .product-mission2{
+    width:100%;
+    min-height:120px;
+    padding:18px;
+    border-radius:18px;
+  }
+
+  .product-mission p:first-child,
+  .product-mission2 p:first-child{
+    font-size:34px;
+  }
+
+  .product-mission p:last-child,
+  .product-mission2 p:last-child{
+    font-size:16px;
+  }
+
+  .section-2{
+    width:100%;
+    min-height:320px;
+    border-radius:22px;
+    overflow:hidden;
+  }
+
+  .philosophy-card{
+    width:180px;
+    left:15px;
+    bottom:15px;
+    padding:16px;
+    border-radius:18px;
+  }
+
+  .philosophy-card span{
+    font-size:9px;
+  }
+
+  .philosophy-card h2{
+    font-size:13px;
+    line-height:1.5;
+  }
+
+  /* our journey */
+
+  .journey{
+    padding:50px 15px;
+  }
+
+  .journey-title{
+    font-size:24px;
+  }
+
+  .timeline-item{
+    flex-direction:column;
+    gap:15px;
+    padding-bottom:45px;
+  }
+
+  .timeline-left{
+    width:100%;
+    justify-content:flex-start;
+  }
+
+  .line{
+    display:none;
+  }
+
+  .circle{
+    width:35px;
+    height:35px;
+    font-size:16px;
+  }
+
+  .timeline-label,
+  .timeline-heading,
+  .timeline-text{
+    margin-left:0;
+  }
+
+  .timeline-heading{
+    font-size:16px;
+  }
+
+  .timeline-text{
+    font-size:13px;
+    line-height:1.6;
+    max-width:100%;
+  }
+  .title {
+        font-size: 32px;
+    }
+
+    /* faqs */
+    .faq-header {
+        margin-bottom: 35px;
+    }
+    .faq-title {
+        font-size: 28px;
+    }
+    .faq-badge {
+        padding: 8px 14px;
+        font-size: 12px;
+    }
+    .accordion-header {
+        font-size: 16px;
+        padding: 18px 20px;
+    }
+    .accordion-content p {
+        padding: 0 20px 20px 20px;
+        font-size: 15px;
+    }
+    /* cta section */
+    .cta-section {
+        padding: 40px 20px;
+    }
+    .cta-title {
+        font-size: 24px;
+    }
+    .cta-text {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 360px) {
+
+  .nav-right {
+    display: none;
+  }
+ 
+  .nav-left {
+    width: 70%;
+  }
+
+  .footer-inner {
+    padding: 0 12px;
+  }
+
+  .newsletter-title {
+    font-size: 12px;
+  }
+
+  .newsletter-text {
+    font-size: 14px;
+  }
+
+  .newsletter-btn {
+    font-size: 14px;
+    padding: 12px;
+  }
+  .hero {
+  position: relative;
+  width: 100%;
+  padding: 48px 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.hero__content {
+  position: relative;
+  z-index: 2;
+  padding: 0 20px;
+}
+
+.hero__eyebrow {
+  font-size: 0.58rem;
+  font-weight: 900;
+  letter-spacing: 0.20em;
+  text-transform: uppercase;
+  color: black;
+  margin-bottom: 10px;
+  font-family: var(--font);
+}
+
+.hero__title {
+  font-size: 1.9rem;
+  font-weight: 800;
+  line-height: 1.05;
+  color: #ffffff;
+  margin-bottom: 14px;
+  letter-spacing: -0.10px;
+  font-family: var(--font);
+}
+
+.hero__desc {
+  font-size: 0.80rem;
+  font-weight: 300;
+  font-family: var(--font);
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.80);
+}
+ .farming {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+
+  .leaf-bg img {
+    height: auto;
+  }
+
+  .leaf-content {
+    padding: 20px 16px;
+  }
+
+  .vision {
+    font-size: 1rem;
+  }
+
+  .building {
+    font-size: 17px;
+    line-height: 1.45;
+  }
+
+  .our-vision {
+    font-size: 13px;
+    line-height: 1.6;
+  }
+
+
+  /* section3  */
+
+  .mission{
+    padding:40px 12px;
+  }
+
+  .mission-section{
+    flex-direction:column;
+    gap:25px;
+  }
+
+  /* LEFT SIDE */
+  .section-1{
+    width:100%;
+  }
+
+  .mission-heading{
+    font-size:13px;
+    letter-spacing:1px;
+    margin-bottom:8px;
+    margin-top: 0px;
+  }
+
+  .mission-building{
+  font-size:18px;
+    line-height:1.3;
+    margin-bottom:18px;
+    max-width:100%;
+  }
+
+  .mission-statement{
+    font-size:12px;
+    line-height:1.6;
+    margin-bottom:25px;
+    max-width:100%;
+  }
+
+  /* PRODUCT BOX */
+  .pr-mission{
+    flex-direction:column;
+    gap:15px;
+  }
+
+  .product-mission,
+  .product-mission2{
+    width:100%;
+    min-height:110px;
+    border-radius:16px;
+    padding:15px;
+  }
+
+  .product-mission p:first-child,
+  .product-mission2 p:first-child{
+    font-size:28px;
+    margin-bottom:6px;
+  }
+
+  .product-mission p:last-child,
+  .product-mission2 p:last-child{
+    font-size:14px;
+  }
+
+  /* RIGHT SIDE IMAGE */
+  .section-2{
+    width:100%;
+    min-height:260px;
+    border-radius:18px;
+    overflow:hidden;
+  }
+
+  /* CARD */
+  .philosophy-card{
+    position:absolute;
+    left:10px;
+    bottom:10px;
+    width:150px;
+    padding:12px;
+    border-radius:16px;
+  }
+
+  .philosophy-card span{
+    font-size:8px;
+    letter-spacing:1px;
+    margin-bottom:5px;
+  }
+
+  .philosophy-card h2{
+    font-size:11px;
+    line-height:1.4;
+  }
+
+
+  /* our journey */
+  .timeline-item{
+    flex-direction:column;
+    gap:15px;
+  }
+
+  .timeline-left{
+    width:100%;
+    justify-content:flex-start;
+  }
+
+  .line{
+    display:none;
+  }
+
+  .timeline-label,
+  .timeline-heading,
+  .timeline-text{
+    margin-left:0;
+  }
+
+  .timeline-text{
+    max-width:100%;
+  }
+
+  .values-section {
+        margin-top: 50px;
+        padding: 0 15px;
+    }
+
+    .title {
+        font-size: 26px; 
+        line-height: 1.2;
+        margin-bottom: 30px;
+    }
+
+    .subtitle {
+        font-size: 12px; 
+        letter-spacing: 1px;
+    }
+
+    .values-container {
+        grid-template-columns: 1fr; 
+        padding: 30px 0px;
+        gap: 15px;
+    }
+
+    .value-card {
+        padding: 25px 20px;
+        border-radius: 15px;
+    }
+
+    .icon-box {
+        width: 50px; 
+        height: 50px;
+        margin-bottom: 15px;
+    }
+
+    .value-card h3 {
+        font-size: 18px;
+    }
+
+    .value-card p {
+        font-size: 14px;
+    }
+
+
+    /* faqs */
+    .faq-container {
+        margin-top: 50px;
+        padding: 0 10px;
+    }
+    .faq-title {
+        font-size: 24px; 
+    }
+    .accordion-item {
+        border-radius: 20px; 
+        gap: 12px;
+    }
+    .accordion-header {
+        font-size: 15px; 
+        padding: 15px;
+    }
+    .accordion-header .arrow {
+        font-size: 14px;
+    }
+    .accordion-content p {
+        padding: 0 15px 15px 15px;
+        font-size: 14px; 
+    }
+
+    /* cta section */
+    .cta-section {
+        padding: 40px 15px;
+    }
+    .cta-title {
+        font-size: 22px;
+    }
+    .cta-button {
+        padding: 15px 25px;
+        font-size: 15px;
+        width: 100%; 
+        justify-content: center;
+    }
+}
