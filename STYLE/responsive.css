@@ -1,0 +1,1416 @@
+/* ============================================
+   DHAPU ORGANICS — RESPONSIVE CSS
+   Breakpoints: 1024px | 768px | 480px | 390px | 360px
+   ============================================ */
+ 
+/* ---- LARGE TABLET / SMALL LAPTOP (max 1024px) ---- */
+@media (max-width: 1024px) {
+ 
+  .wrapper {
+    padding: 0 20px;
+  }
+ 
+  .nav-left {
+    width: 30%;
+  }
+ 
+  .nav-center {
+    width: 45%;
+  }
+ 
+  .nav-right {
+    width: 25%;
+  }
+ 
+  .nav-center ul {
+    gap: 18px;
+  }
+ 
+  .nav-center li a {
+    font-size: 12px;
+  }
+ 
+  .factory {
+    background-color: #d5A834;
+    width: 50%;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin-left: 50px;
+    font-size: 15px;
+    font-family: var(--font);
+    animation: animation 1s ease;
+  }
+ 
+  .dhapu-org {
+    font-size: 48px;
+    width: 80%;
+  }
+ 
+  .explore-btn1 {
+    width: 25%;
+  }
+ 
+  .explore-btn2 {
+    width: 20%;
+  }
+ 
+  .stats-container {
+    gap: 24px;
+  }
+
+  /* why choose us */
+  
+.card-logo{
+  bottom: 140px;         
+ 
+}
+.Product-card-detail{
+  width: 45%;
+}
+ .the-growth-heading2 {
+  font-size: 38px;
+}
+
+.the-growth-profit {
+  width: 20%;
+}
+
+.the-growth-traditional {
+  width: 20%;
+  left: 20px;
+}
+
+.the-growth-Organic {
+  width: 20%;
+  right: 20px;
+}
+
+.crop-card-2 {
+  width: 47%;
+  margin-bottom: 16px;
+}
+
+.hig-low {
+  margin-top: -50px;
+}
+
+.calculate-heading2 {
+  font-size: 40px;
+}
+
+.farm-calc {
+  width: 80%;
+}
+
+.calc-card-value {
+  font-size: 24px;
+}
+.farmers-heading h2 {
+  font-size: 38px;
+}
+
+.farmers-grid {
+  padding: 0 28px;
+  gap: 16px;
+}
+
+
+  .cta-heading {
+    font-size: 48px;
+  }
+
+  .footer-inner {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 0 30px;
+  }
+    .footer-inner {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 0 30px;
+  }
+}
+/* ---- TABLET (max 768px) ---- */
+@media (max-width: 768px) {
+ 
+  /* --- NAVBAR --- */
+  .navabar {
+    width: 100%;
+    padding: 0 16px;
+    left: 0;
+    right: 0;
+  }
+ 
+  .nav {
+    height: 65px;
+    position: relative;
+  }
+ 
+  .nav-left {
+    width: 60%;
+  }
+ 
+  .nav-span {
+    font-size: 14px;
+  }
+ 
+  .nav-left img {
+    width: 40px;
+  }
+ 
+  /* Hide desktop nav links */
+  .nav-center {
+    display: none;
+  }
+ 
+  .nav-right {
+    display: none;
+  }
+/* OUR PRODUCT */
+ 
+  /* --- HERO EXPLORE --- */
+  /* Fix: reduce top so content fits in 100vh */
+  .explore {
+    top: 80px;
+    padding-bottom: 20px;
+  }
+ 
+  .factory {
+    width: 65%;
+    margin-left: 24px;
+    font-size: 13px;
+    padding: 8px 16px;
+    border: none;
+    margin-top: 90px;
+  }
+ 
+  .dhapu-org {
+    font-size: 38px;
+    width: 90%;
+    margin-left: 24px;
+    padding: 6px 16px;
+    margin-top: 40px;
+  }
+ 
+  .factory-desc {
+    font-size: 15px;
+    margin-left: 24px;
+    padding: 6px 16px;
+    margin-top: 30px;
+    line-height: 1.6;
+  }
+ 
+  .factory-desc br {
+    display: none;
+  }
+ 
+  .explore-btn1 {
+    width: auto;
+    margin-left: 24px;
+    padding: 12px 22px;
+    font-size: 14px;
+    margin-top: 70px;
+  }
+ 
+  .explore-btn2 {
+    width: auto;
+    padding: 12px 20px;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+ 
+  .stats-container {
+    margin-left: 24px;
+    gap: 28px;
+    flex-wrap: nowrap;
+    top: 80px;
+  }
+ 
+  .stat-box h2 {
+    font-size: 22px;
+  }
+ 
+  .stat-box p {
+    font-size: 12px;
+    margin-top: 6px;
+  }
+ 
+  /* --- HAMBURGER --- */
+  .hamburger {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    cursor: pointer;
+  }
+ 
+  .menu {
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.4s ease, opacity 0.3s ease;
+    display: inline-block;
+  }
+ 
+  .menu.open {
+    transform: rotate(90deg);
+    opacity: 0.7;
+  }
+ 
+  .ham-btn {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+  }
+  .ham-btn i{
+  color: black;
+  }
+ 
+  .ham-detail {
+    position: fixed;
+    top: 65px;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.97);
+    z-index: 999;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, padding 0.4s ease;
+    padding: 0 20px;
+  }
+ 
+  .ham-detail.active {
+    max-height: 600px;
+    padding: 20px;
+  }
+ 
+  .ham-detail ul {
+    list-style: none;
+    padding: 0;
+  }
+ 
+  .ham-detail ul li {
+    margin-top: 15px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+ 
+  .ham-detail ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    flex: 1;
+  }
+ 
+  .arrow {
+    font-size: 14px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    display: inline-block;
+    padding: 4px 8px;
+  }
+ 
+  li.open .arrow {
+    transform: rotate(180deg);
+  }
+ 
+  .menu-drop {
+    background-color: transparent;
+    display: block;
+    position: static;
+    width: 100%;
+    border-radius: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+    padding-left: 15px;
+    border-left: 2px solid #5a7c45;
+  }
+ 
+  li.open .menu-drop {
+    max-height: 400px;
+    padding: 5px 0 5px 15px;
+  }
+ 
+  .Get-btn-res {
+    border: none;
+    width: 90%;
+    padding: 12px 22px;
+    color: #fff;
+    background-color: #2c5828;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: 15px;
+    margin-top: 20px;
+    display: block;
+  }
+    /* why choose us */
+  
+
+/* why choose use */
+
+.card1{
+  width: 100%;
+}
+.card3{
+  margin-top: 20px;
+}
+.card2{
+  margin-top: 20px;
+}
+/* ───────────────
+   PRODUCT
+─────────────── */
+.Product-card-detail {
+  width: 45%;
+}
+
+
+/* ───────────────
+   GROWTH SECTION
+─────────────── */
+.the-growth-heading2 {
+  font-size: 30px;
+}
+
+.the-growth-img {
+  margin-top: 40px;
+  min-height: 50vh;
+}
+
+.the-growth-prof {
+  min-height: 50vh;
+}
+
+.the-growth-profit {
+  width: 30%;
+  font-size: 16px;
+  padding: 8px;
+}
+
+/* hig-low layout */
+.hig-low {
+  height: auto;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px 20px;
+  margin-top: -80px;
+}
+
+/* traditional & organic */
+.the-growth-traditional,
+.the-growth-Organic {
+  width: 100%;
+  position: static;
+  top: auto;
+  left: auto;
+  right: auto;
+  text-align: center;
+}
+
+/* text */
+.the-growth-traditional p,
+.the-growth-Organic p {
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+.the-growth-low,
+.the-growth-high {
+  font-size: 26px;
+}
+
+
+/* ───────────────
+   CROP CARDS
+─────────────── */
+.crop-card {
+  margin-top: 30px;
+}
+
+.crop-card-2 {
+  width: 47%;
+  margin-bottom: 16px;
+}
+
+.crop-season,
+.crop-title,
+.crop-growth {
+  width: 80%;
+  transform: translateX(12%);
+}
+
+
+.calculate-heading2 {
+  font-size: 32px;
+}
+
+.calculate-rio {
+  margin-top: 60px;
+}
+
+.farm-calc {
+  width: 90%;
+  padding: 24px 22px 28px;
+}
+
+.calc-cards {
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.calc-card-value {
+  font-size: 22px;
+}
+
+.farmers-say {
+  padding: 50px 0 60px;
+}
+
+.farmers-heading {
+  margin-bottom: 36px;
+}
+
+.farmers-heading h2 {
+  font-size: 30px;
+}
+
+.farmers-heading p {
+  font-size: 14px;
+  padding: 0 20px;
+}
+
+.farmers-grid {
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0 20px;
+  gap: 14px;
+}
+
+        .cta-section {
+    padding: 70px 20px 60px;
+  }
+
+  .cta-heading {
+    font-size: 36px;
+  }
+
+  .cta-description {
+    font-size: 14px;
+  }
+
+  .footer-inner {
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    padding: 0 20px;
+  }
+
+  .newsletter-form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .newsletter-btn {
+    width: 100%;
+  }
+   .footer-inner {
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    padding: 0 20px;
+  }
+
+  .newsletter-form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .newsletter-btn {
+    width: 100%;
+  }
+}
+ 
+/* ---- MOBILE (max 480px) ---- */
+@media (max-width: 480px) {
+
+
+  .nav-right {
+    display: none;
+  }
+ 
+  .nav-left {
+    width: 70%;
+  }
+ 
+  .explore {
+    top: 65px;
+  }
+ 
+  .factory {
+    width: 100%;
+    margin-left: 0px;
+    font-size: 12px;
+    border: none;
+    margin-top: 80px;
+  }
+ 
+  .dhapu-org {
+    width: 100%;
+    margin-left: 0px;
+    font-size: 40px;
+    margin-top: 25px;
+  }
+ 
+  .dhapu {
+    display: flex;
+    justify-content: center;
+  }
+ 
+  .grow {
+    display: flex;
+    justify-content: center;
+  }
+ 
+  .factory-desc {
+    font-size: 17px;
+    width: 100%;
+    padding: 0px;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+ 
+  .explore-btn1 {
+    width: 80%;
+    margin-left: 0px;
+    margin-top: 40px;
+  }
+ 
+  .explore-btn2 {
+
+    width: 60%;
+    margin-top: 16px;
+  }
+ 
+  .stats-container {
+    margin-left: 20px;
+    gap: 56px;
+    margin-top: 40px;
+  }
+ 
+  .stat-box h2 {
+    font-size: 25px;
+  }
+ 
+  .stat-box p {
+    font-size: 10px;
+  }
+ 
+  /* Hamburger */
+  .hamburger {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    cursor: pointer;
+  }
+ 
+  .menu {
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.4s ease, opacity 0.3s ease;
+    display: inline-block;
+  }
+ 
+  .menu.open {
+    transform: rotate(90deg);
+    opacity: 0.7;
+  }
+ 
+  .ham-btn {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+  }
+ 
+  .ham-detail {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.97);
+    z-index: 999;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, padding 0.4s ease;
+    padding: 0 20px;
+  }
+ 
+  .ham-detail.active {
+    max-height: 600px;
+    padding: 20px;
+  }
+ 
+  .ham-detail ul {
+    list-style: none;
+    padding: 0;
+  }
+ 
+  .ham-detail ul li {
+    margin-top: 15px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+ 
+  .ham-detail ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    flex: 1;
+  }
+ 
+  .menu-drop {
+    background-color: transparent;
+    display: block;
+    position: static;
+    width: 100%;
+    border-radius: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+    padding-left: 15px;
+    border-left: 2px solid #5a7c45;
+  }
+ 
+  li.open .menu-drop {
+    max-height: 400px;
+    padding: 5px 0 5px 15px;
+  }
+ 
+  .arrow {
+    font-size: 14px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    display: inline-block;
+    padding: 4px 8px;
+  }
+ 
+  li.open .arrow {
+    transform: rotate(180deg);
+  }
+ 
+  .Get-btn-res {
+    border: none;
+    width: 90%;
+    padding: 12px 22px;
+    color: #fff;
+    background-color: #2c5828;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: 15px;
+    margin-top: 20px;
+    display: block;
+  }
+ .card1{
+  width: 100%;
+}
+.card3{
+  margin-top: 20px;
+}
+.card2{
+  margin-top: 20px;
+}
+/* OUR PRODUCT */
+.Product-card-detail{
+  width: 100%;
+}
+
+.the-growth-heading2 {
+  font-size: 24px;
+}
+
+.the-growth-discription {
+  font-size: 13px;
+  padding: 0 12px;
+}
+
+.the-growth-img {
+  margin-top: 28px;
+  min-height: 40vh;
+}
+
+.the-growth-prof {
+  min-height: 40vh;
+}
+
+.the-growth-profit {
+  width: 50%;
+  font-size: 14px;
+}
+
+/* crop */
+.crop-card {
+  margin-top: 30px;
+}
+
+.crop-card-2 {
+  width: 100%;
+  margin-bottom: 14px;
+}
+
+.crop-season,
+.crop-title,
+.crop-growth {
+  width: 90%;
+  transform: translateX(5%);
+}
+
+.crop-title {
+  font-size: 17px;
+}
+
+.crop-growth {
+  font-size: 17px;
+}
+
+/* calculate */
+.calculate-heading2 {
+  font-size: 26px;
+}
+
+.calculate-discription {
+  font-size: 13px;
+  padding: 0 12px;
+}
+
+.calculate-rio {
+  margin-top: 40px;
+}
+
+.farm-calc {
+  width: 95%;
+  padding: 20px 16px 24px;
+  border-radius: 16px;
+}
+
+.calc-cards {
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.calc-card-value {
+  font-size: 24px;
+}
+
+.calc-label {
+  font-size: 14px;
+}
+
+/* farmers */
+.farmers-say {
+  padding: 40px 0 50px;
+}
+
+.farmers-heading {
+  margin-bottom: 28px;
+}
+
+.farmers-heading h2 {
+  font-size: 24px;
+  padding: 0 16px;
+}
+
+.farmers-heading p {
+  font-size: 13px;
+  padding: 0 16px;
+}
+
+.farmers-grid {
+  grid-template-columns: 1fr;
+  padding: 0 16px;
+  gap: 14px;
+}
+
+.farmer-card {
+  padding: 22px 20px 20px;
+}    .cta-heading {
+    font-size: 26px;
+  }
+
+  .cta-description {
+    font-size: 13px;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .btn-whatsapp,
+  .btn-contact {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .footer-inner {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 0 16px;
+  }
+
+  .newsletter {
+    max-width: 100%;
+  }
+
+  .newsletter-input {
+    padding: 14px 16px;
+  }
+}
+
+
+
+
+
+/* ---- SMALL MOBILE (max 390px) ---- */
+@media (max-width: 390px) {
+ 
+
+  .nav-right {
+    display: none;
+  }
+ 
+  .nav-left {
+    width: 70%;
+  }
+ 
+  .explore {
+    top: 65px;
+  }
+ 
+  .factory {
+    width: 100%;
+    margin-left: 0px;
+    font-size: 12px;
+    border: none;
+    margin-top: 80px;
+  }
+ 
+  .dhapu-org {
+    width: 100%;
+    margin-left: 0px;
+    font-size: 40px;
+    margin-top: 25px;
+  }
+ 
+  .dhapu {
+    display: flex;
+    justify-content: center;
+  }
+ 
+  .grow {
+    display: flex;
+    justify-content: center;
+  }
+ 
+  .factory-desc {
+    font-size: 17px;
+    width: 100%;
+    padding: 0px;
+    margin-left: 0px;
+    margin-top: 1px;
+  }
+ 
+  .explore-btn1 {
+    width: 80%;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+ 
+  .explore-btn2 {
+
+    width: 60%;
+    margin-top: 10px;
+  }
+ 
+  .stats-container {
+    margin-left: 20px;
+    gap: 56px;
+    margin-top: 40px;
+  }
+ 
+  .stat-box h2 {
+    font-size: 25px;
+  }
+ 
+  .stat-box p {
+    font-size: 10px;
+  }
+ 
+  /* Hamburger */
+  .hamburger {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    cursor: pointer;
+  }
+ 
+  .menu {
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.4s ease, opacity 0.3s ease;
+    display: inline-block;
+  }
+ 
+  .menu.open {
+    transform: rotate(90deg);
+    opacity: 0.7;
+  }
+ 
+  .ham-btn {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+  }
+ 
+  .ham-detail {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.97);
+    z-index: 999;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, padding 0.4s ease;
+    padding: 0 20px;
+  }
+ 
+  .ham-detail.active {
+    max-height: 600px;
+    padding: 20px;
+  }
+ 
+  .ham-detail ul {
+    list-style: none;
+    padding: 0;
+  }
+ 
+  .ham-detail ul li {
+    margin-top: 15px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+ 
+  .ham-detail ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    flex: 1;
+  }
+ 
+  .menu-drop {
+    background-color: transparent;
+    display: block;
+    position: static;
+    width: 100%;
+    border-radius: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+    padding-left: 15px;
+    border-left: 2px solid #5a7c45;
+  }
+ 
+  li.open .menu-drop {
+    max-height: 400px;
+    padding: 5px 0 5px 15px;
+  }
+ 
+  .arrow {
+    font-size: 14px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    display: inline-block;
+    padding: 4px 8px;
+  }
+ 
+  li.open .arrow {
+    transform: rotate(180deg);
+  }
+ 
+  .Get-btn-res {
+    border: none;
+    width: 90%;
+    padding: 12px 22px;
+    color: #fff;
+    background-color: #2c5828;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: 15px;
+    margin-top: 20px;
+    display: block;
+  }
+   
+ 
+}
+/* ---- EXTRA SMALL (max 360px) ---- */
+
+@media (max-width: 360px) {
+ 
+  .nav-right {
+    display: none;
+  }
+ 
+  .nav-left {
+    width: 70%;
+  }
+ 
+  .explore {
+    top: 65px;
+  }
+ 
+  .factory {
+    width: 100%;
+    margin-left: 0px;
+    font-size: 12px;
+    border: none;
+    margin-top: 80px;
+  }
+ 
+  .dhapu-org {
+    width: 100%;
+    margin-left: 0px;
+    font-size: 40px;
+    margin-top: 25px;
+  }
+ 
+  .dhapu {
+    display: flex;
+    justify-content: center;
+  }
+ 
+  .grow {
+    display: flex;
+    justify-content: center;
+  }
+ 
+  .factory-desc {
+    font-size: 17px;
+    width: 100%;
+    padding: 0px;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+ 
+  .explore-btn1 {
+    width: 80%;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+ 
+  .explore-btn2 {
+
+    width: 60%;
+    margin-top: 10px;
+  }
+ 
+  .stats-container {
+    margin-left: 0px;
+    gap: 50px;
+    margin-top: 0px;
+  }
+ 
+  .stat-box h2 {
+    font-size: 22px;
+  }
+ 
+  .stat-box p {
+    font-size: 10px;
+  }
+ 
+  /* Hamburger */
+  .hamburger {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    cursor: pointer;
+  }
+ 
+  .menu {
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.4s ease, opacity 0.3s ease;
+    display: inline-block;
+  }
+ 
+  .menu.open {
+    transform: rotate(90deg);
+    opacity: 0.7;
+  }
+ 
+  .ham-btn {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+  }
+ 
+  .ham-detail {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.97);
+    z-index: 999;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, padding 0.4s ease;
+    padding: 0 20px;
+  }
+ 
+  .ham-detail.active {
+    max-height: 600px;
+    padding: 20px;
+  }
+ 
+  .ham-detail ul {
+    list-style: none;
+    padding: 0;
+  }
+ 
+  .ham-detail ul li {
+    margin-top: 15px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+ 
+  .ham-detail ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    flex: 1;
+  }
+ 
+  .menu-drop {
+    background-color: transparent;
+    display: block;
+    position: static;
+    width: 100%;
+    border-radius: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+    padding-left: 15px;
+    border-left: 2px solid #5a7c45;
+  }
+ 
+  li.open .menu-drop {
+    max-height: 400px;
+    padding: 5px 0 5px 15px;
+  }
+ 
+  .arrow {
+    font-size: 14px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    display: inline-block;
+    padding: 4px 8px;
+  }
+ 
+  li.open .arrow {
+    transform: rotate(180deg);
+  }
+ 
+  .Get-btn-res {
+    border: none;
+    width: 90%;
+    padding: 12px 22px;
+    color: #fff;
+    background-color: #2c5828;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: 15px;
+    margin-top: 20px;
+    display: block;
+  }
+  /* OUR PRODUCT */
+.Product-card-detail{
+  width: 100%;
+}
+  .pro-btn {
+    width: 92%;
+    font-size: 13px;
+    padding: 13px 16px;
+    
+  }
+/* The growth gap */
+
+/* Growth */
+.the-growth-heading2 {
+  font-size: 25px;
+}
+
+.the-growth-discription {
+  font-size: 12px;
+}
+
+.the-growth-profit {
+  width: 65%;
+  font-size: 13px;
+}
+
+.the-growth-low,
+.the-growth-high {
+  font-size: 22px;
+}
+
+/* crop */
+.crop-card {
+  margin-top: 30px;
+}
+
+.crop-season,
+.crop-title,
+.crop-growth {
+  width: 90%;
+  transform: translateX(5%);
+}
+
+.crop-title {
+  font-size: 15px;
+}
+
+.crop-growth {
+  font-size: 15px;
+}
+
+/* ── Calculate Profit ── */
+
+.calculate-heading1 {
+  font-size: 9px;
+  padding: 30px 10px;
+}
+
+.calculate-heading2 {
+  font-size: 22px;
+}
+
+.calculate-discription {
+  font-size: 12px;
+  padding: 0 10px;
+}
+
+.calculate-rio {
+  margin-top: 30px;
+}
+
+.caluclate {
+  margin-top: 20px;
+  padding: 0 10px;
+}
+
+.farm-calc {
+  width: 100%;
+  padding: 16px 14px 20px;
+  border-radius: 14px;
+  margin-bottom: 30px;
+}
+
+.calc-label {
+  font-size: 13px;
+}
+
+.calc-cards {
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.calc-card {
+  padding: 14px 14px 16px;
+  border-radius: 12px;
+}
+
+.calc-card-label {
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  margin-bottom: 10px;
+}
+
+.calc-card-value {
+  font-size: 20px;
+}
+
+.calc-range-ends {
+  font-size: 11px;
+}
+
+/* ── Farmers ── */
+
+.farmers-heading h2 {
+  font-size: 21px;
+}
+
+.farmers-heading p {
+  font-size: 12px;
+}
+
+.farmers-grid {
+  padding: 0 12px;
+  gap: 12px;
+}
+
+.farmer-card {
+  padding: 18px 16px 18px;
+  border-radius: 14px;
+}
+
+.farmer-review {
+  font-size: 13px;
+}
+
+.farmer-name {
+  font-size: 14px;
+}
+
+.farmer-avatar {
+  width: 38px;
+  height: 38px;
+  font-size: 12px;
+}
+
+             .cta-heading {
+    font-size: 22px;
+  }
+  .footer-inner {
+    padding: 0 12px;
+  }
+
+  .newsletter-title {
+    font-size: 12px;
+  }
+
+  .newsletter-text {
+    font-size: 14px;
+  }
+
+  .newsletter-btn {
+    font-size: 14px;
+    padding: 12px;
+  }
+} 
+
